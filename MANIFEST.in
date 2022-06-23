@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include polyclinic_tz *.css
+recursive-include polyclinic_tz *.csv
+recursive-include polyclinic_tz *.html
+recursive-include polyclinic_tz *.ico
+recursive-include polyclinic_tz *.js
+recursive-include polyclinic_tz *.json
+recursive-include polyclinic_tz *.md
+recursive-include polyclinic_tz *.png
+recursive-include polyclinic_tz *.py
+recursive-include polyclinic_tz *.svg
+recursive-include polyclinic_tz *.txt
+recursive-exclude polyclinic_tz *.pyc
